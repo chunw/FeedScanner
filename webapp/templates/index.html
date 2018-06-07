@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+      <meta charset="UTF-8">
+      <title>Readable Feed</title>
+      <link rel="shortcut icon" href="static/assets/img/icon48c.png">
+      <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/app.css') }}">
+      <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/animate.css') }}">
+      <script src="{{ url_for('static', filename='javascript/jquery-3.2.1.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='javascript/moment.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='javascript/letter.js') }}"></script>
+      <script src="{{ url_for('static', filename='javascript/textillate.js') }}"></script>
+      <script src="{{ url_for('static', filename='javascript/app.js') }}"></script>
+  </head>
+  <body>
+    <div id="container">
+      <img src="static/assets/img/openbook-mock.jpg" alt="background" style="width:100%;">
+      <div class="title top-center left"></div>
+      <div class="title top-center right"></div>
+      <div id="tlt" class="text top-left"></div>
+      <div id="tlt2" class="text top-right"></div>
+    </div>
+    <div class="text bottom-right"><a href="ads"> read the ads </a> </div>
+  </body>
+</html>

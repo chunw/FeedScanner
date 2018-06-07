@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.text {
+    width: 28%;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.38;
+    font-family: "wf_segoe-ui_semibold", "Segoe UI Semibold", "Segoe WP Semibold", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+
+.title {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 110px;
+  left: 250px;
+}
+
+.top-right {
+  position: absolute;
+  top: 110px;
+  right: 250px;
+}
+
+.top-center {
+  position: absolute;
+  top: 90px;
+}
+
+.top-center.left {
+  left: 354px;
+}
+
+.top-center.right {
+  right: 354px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: -250px;
+}
+a:visited {
+  color: black;
+}
+.poster {
+  font-weight: bold;
+  margin-top: 28px;
+  font-size: 13px;
+}
+
+.post {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.bookend {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+}
